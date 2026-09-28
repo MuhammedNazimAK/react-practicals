@@ -1,7 +1,7 @@
 import './App.css'
 import Login from './components/Login'
 import Profile from './components/Profile'
-import UserContextProvider from './context/UserContextProvider'
+import { UserContextProvider } from './contexts/UserContext';
 
 function App() {
   return (
@@ -11,6 +11,6 @@ function App() {
       <Profile />
     </UserContextProvider>
   )
-}
+};
 
-export default App
+export default App;
